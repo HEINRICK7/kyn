@@ -1,0 +1,86 @@
+# Kyn Experiment Protocol
+Todo experimento deve possuir arquivo próprio antes de execução.
+
+## Template
+
+```
+EXPERIMENT_ID:
+
+TITLE:
+
+STATUS:
+PROPOSED
+
+HYPOTHESIS:
+
+RATIONALE:
+
+BASELINE:
+
+CHANGE_UNDER_TEST:
+
+DATASET:
+
+DATASET_HASH:
+
+TRAIN_SPLIT:
+
+VALIDATION_SPLIT:
+
+CALIBRATION_SPLIT:
+
+TEST_SPLIT:
+
+SEEDS:
+
+MODEL:
+
+MODEL_REVISION:
+
+COMMIT:
+
+HARDWARE:
+
+SOFTWARE:
+
+CONFIGURATION:
+
+PRIMARY_METRIC:
+
+SECONDARY_METRICS:
+
+PASS_CRITERIA:
+
+FAIL_CRITERIA:
+
+COMMAND:
+
+ARTIFACT_DIRECTORY:
+```
+Após execução:
+
+```
+START_TIME:
+
+END_TIME:
+
+EXIT_CODE:
+
+RAW_ARTIFACTS:
+
+CHECKPOINTS:
+
+RESULTS:
+
+LIMITATIONS:
+
+CONCLUSION:
+
+FINAL_STATUS:
+MEASURED / VERIFIED / FAILED / INCONCLUSIVE
+```
+
+## Regra
+PASS e FAIL precisam ser definidos antes da execução.
+
+O agente não pode alterá-los depois.
